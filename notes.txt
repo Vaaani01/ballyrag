@@ -65,7 +65,7 @@ except:
 
 🔧 Optional Enhancements (Roadmap)
 
-🌐 1. Web Dashboard
+🌐 ✅1. Web Dashboard
 
     Create a Flask GUI for sender (HTML + form)
 
@@ -73,11 +73,11 @@ except:
 
     Use from browser, no script run needed
 
-🔄 2. Robust IP Management
+🔄 ✅2. Robust IP Management
 
     Auto-detect devices via:
 
-        UDP Broadcast
+        ✅UDP Broadcast
 
         mDNS (Bonjour/Zeroconf)
 

@@ -44,30 +44,3 @@ for ip in receiver_ips:
     except Exception as e:
         print(f"Failed to send to {ip}: {e}")
 
-
-
-# import requests
-# import webbrowser
-
-# receiver_ip = "http://192.168.47.82:5000/play"
-
-
-# # Input manually for now
-# video_url = input("Enter YouTube video URL: ")
-# timestamp = input("Enter current time (in seconds): ")
-
-# data = {
-#     "url": video_url,
-#     "time": timestamp
-# }
-# # Build the same final URL
-# final_url = f"{video_url}&t={timestamp}"
-# webbrowser.open(final_url)
-
-# # Input manually for now
-# res = requests.post(receiver_ip, json=data)
-# try:
-#     print("Response:", res.json())
-# except:
-#     print("Response content:", res.text)
-
