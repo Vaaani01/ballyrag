@@ -5,7 +5,7 @@ import requests
 def discover_receivers():
     udp_sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     udp_sock.setsockopt(socket.SOL_SOCKET, socket.SO_BROADCAST, 1)
-    udp_sock.settimeout(2)  # wait max 2 seconds for replies
+    udp_sock.settimeout(2)
 
     message = b"DISCOVER_RECEIVERS"
     udp_sock.sendto(message, ('<broadcast>', 9999))
