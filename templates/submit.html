@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Wi-Fi Connected</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            background-color: #f9f9f9;
+            background-image: url('https://republicaimg.nagariknewscdn.com/shared/web/uploads/media/internet.jpg');
+        }
+
+        .header {
+            height: 200px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .container {
+            max-width: 400px;
+            margin: -50px auto 50px auto;
+            background: white;
+            padding: 30px;
+            border-radius: 22px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+            text-align: center;
+        }
+
+        h2 {
+            margin-bottom: 10px;
+            color: #28a745;
+        }
+
+        p {
+            color: #444;
+            font-size: 16px;
+        }
+
+        .footer-img {
+            margin-top: 20px;
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .status-icon {
+            font-size: 50px;
+            color: #28a745;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+    </div>
+
+    <div class="container">
+        <div class="status-icon">✅</div>
+        <h2>You're Connected!</h2>
+        <p>Your device is now connected to Free Wi-Fi.<br>Enjoy your 60-minute session.</p>
+        <!-- Inside your .container div, below the <p> -->
+<a href="/speedtest">
+    <button style="margin-top: 20px;">Check Internet Speed</button>
+</a>
+
+        <img class="footer-img" src="https://images.unsplash.com/photo-1498050108023-c5249f4df085" alt="Wi-Fi Theme">
+    </div>
+
+</body>
+</html>
