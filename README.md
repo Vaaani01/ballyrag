@@ -1,7 +1,7 @@
-PhantomPlay 🎭▶️
+ballyrag 🎭▶️
 
-PhantomPlay is a lightweight Python-based tool that allows you to remotely trigger YouTube video playback on another device.
-Run a small Python server on your mobile and send a simple POST request from your laptop — and the video plays like phantom magic! ✨
+ballyrag is a lightweight Python-based tool that allows you to remotely trigger YouTube video playback on another device.
+Run a small Python server on your mobile and send a simple POST request from your laptop — and the video plays✨
 🚀 How It Works
 
   Device A (Sender):
@@ -77,5 +77,3 @@ python3 sender.py
   - Robustness testing and improvements.
 
 👩‍💻 Author : Vaaani01
-
-✨ Let's make devices dance like phantoms! ✨
